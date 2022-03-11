@@ -1,0 +1,4 @@
+{
+	"1": "ensures (\\forall int i; 1 <= i && i <= size; elementData[i] == \\old(elementData[i]))",
+	"2": "invariant (\\forall int i; 2 <= i && i <= size; elementData[i / 2].compareTo(elementData[i]) == -1)"
+}
